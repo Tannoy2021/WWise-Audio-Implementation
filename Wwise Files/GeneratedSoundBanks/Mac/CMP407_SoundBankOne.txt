@@ -1,0 +1,71 @@
+Event	ID	Name			Wwise Object Path	Notes
+	434087672	Play_GunFire			\Default Work Unit\GunFolder\Play_GunFire	
+	502601669	Play_Gentle_rain_			\Default Work Unit\RainSounds\Play_Gentle_rain_	
+	797967755	Play_Cube_Drop			\Default Work Unit\MiscFolder\Play_Cube_Drop	
+	1416473844	Play_Flatwoods_Pinecastle_Nature_Forest_Whispering_Pines_02			\Default Work Unit\ParkEvents\Play_Flatwoods_Pinecastle_Nature_Forest_Whispering_Pines_02	
+	1547258259	Stop_Gentle_rain__water_runs_off_a_pebble_street__recorded_through_an_air_duct__background_thunder_at_1_46__loop			\Default Work Unit\Stop_Gentle_rain__water_runs_off_a_pebble_street__recorded_through_an_air_duct__background_thunder_at_1_46__loop	
+	1660008929	Play_Door_Open			\Default Work Unit\MiscFolder\Play_Door_Open	
+	1683706515	Stop_Dog_Bark			\Default Work Unit\MiscFolder\Stop_Dog_Bark	
+	1805011878	Play_PlayerFootsteps			\Default Work Unit\PlayerMovement\Play_PlayerFootsteps	
+	2060091027	Stop_Door_Open			\Default Work Unit\MiscFolder\Stop_Door_Open	
+	2245143482	Player_Jumped			\Default Work Unit\PlayerJump\Player_Jumped	
+	2406746617	Stop_Cube_Drop			\Default Work Unit\MiscFolder\Stop_Cube_Drop	
+	2632436053	Play_Dog_Bark			\Default Work Unit\MiscFolder\Play_Dog_Bark	
+	2996198362	Stop_Flatwoods_Pinecastle_Nature_Forest_Whispering_Pines_02			\Default Work Unit\ParkEvents\Stop_Flatwoods_Pinecastle_Nature_Forest_Whispering_Pines_02	
+	3274616611	Stop_Gentle_rain_			\Default Work Unit\RainSounds\Stop_Gentle_rain_	
+	4066419295	Stop_Soft_rain__water_flowing_down_from_the_roof_and_splashes_on_cement__city_ambience__loop			\Default Work Unit\Stop_Soft_rain__water_flowing_down_from_the_roof_and_splashes_on_cement__city_ambience__loop	
+	4111168190	Play_GunReturn			\Default Work Unit\GunFolder\Play_GunReturn	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1681012287	PlayerFootsteps			\Default Work Unit\PlayerFootsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	2252631665	Wood_Switch	PlayerFootsteps			
+	2766765585	Dirt_Switch	PlayerFootsteps			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	40188255	OnFloorboards			\Default Work Unit\OnFloorboards	
+	1911964571	HouseReverb			\Default Work Unit\HouseReverb	
+
+State	ID	Name	State Group			Notes
+	456963982	OffFloor	OnFloorboards			
+	748895195	None	OnFloorboards			
+	4008175628	OnFloor	OnFloorboards			
+	748895195	None	HouseReverb			
+	930712164	Off	HouseReverb			
+	1651971902	On	HouseReverb			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	83633804	OffFloor	OnFloorboards	\Actor-Mixer Hierarchy\Default Work Unit\WoodAudio\Soft rain, water flowing down from the roof and splashes on cement, city ambience, loop		
+	658705310	OnFloor	OnFloorboards	\Actor-Mixer Hierarchy\Default Work Unit\WoodAudio\Gentle rain, water runs off a pebble street, recorded through an air duct, background thunder at 1_46, loop		
+	807581652	Off	HouseReverb	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb Bus\HouseReverb		
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	2955179355	Reverb Bus			\Default Work Unit\Master Audio Bus\Reverb Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1911964571	HouseReverb			\Default Work Unit\Master Audio Bus\Reverb Bus\HouseReverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2662085913	Large_Church1	Wwise Matrix Reverb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	31621152	502511__rudmer_rotteveel__wood-creak-single-v3	D:\Week-2-Unity-Audio-Project\Week-2-Unity-Audio-Project_WwiseProject\.cache\Mac\SFX\Wood creak walk\502511__rudmer_rotteveel__wood-creak-single-v3_D22B5ADC.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFootsteps\Wood creak walk\502511__rudmer_rotteveel__wood-creak-single-v3		181188
+	97636047	PM_SDNG_Single_Step_Footstep_46	D:\Week-2-Unity-Audio-Project\Week-2-Unity-Audio-Project_WwiseProject\.cache\Mac\SFX\PMSFX - STEPS Dirt & Gravel\PM_SDNG_Single_Step_Footstep_46_7A687B33.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFootsteps\PMSFX - STEPS Dirt & Gravel\PM_SDNG_Single_Step_Footstep_46		59268
+	137367078	Door_Open	D:\Week-2-Unity-Audio-Project\Week-2-Unity-Audio-Project_WwiseProject\.cache\Mac\SFX\PM_HD_Designed_01 Doors, Old, Wooden, Scary, Horror, Open, Creeking_8C0ECA4A.wem		\Actor-Mixer Hierarchy\Default Work Unit\MiscAudio\Door_Open		304796
+	214786798	502504__rudmer_rotteveel__wood-creak-single-v2	D:\Week-2-Unity-Audio-Project\Week-2-Unity-Audio-Project_WwiseProject\.cache\Mac\SFX\502504__rudmer_rotteveel__wood-creak-single-v2_C46D0D0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerJump\JumpV1\502504__rudmer_rotteveel__wood-creak-single-v2		82376
+	214838300	Dog_Bark	D:\Week-2-Unity-Audio-Project\Week-2-Unity-Audio-Project_WwiseProject\.cache\Mac\SFX\Dog_German_Shepherd_t2_Ext_Field_Bark_Many_TImes_Start_and_Stop_DPA4060_39268869.wem		\Actor-Mixer Hierarchy\Default Work Unit\MiscAudio\Dog_Bark		718420
+	281187969	PM_SDNG_Single_Step_Footstep_19	D:\Week-2-Unity-Audio-Project\Week-2-Unity-Audio-Project_WwiseProject\.cache\Mac\SFX\PM_SDNG_Single_Step_Footstep_19_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerJump\JumpV1\PM_SDNG_Single_Step_Footstep_19		84194
+	390502426	PM_SDNG_Single_Step_Footstep_19	D:\Week-2-Unity-Audio-Project\Week-2-Unity-Audio-Project_WwiseProject\.cache\Mac\SFX\PMSFX - STEPS Dirt & Gravel\PM_SDNG_Single_Step_Footstep_19_9EB4AA54.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFootsteps\PMSFX - STEPS Dirt & Gravel\PM_SDNG_Single_Step_Footstep_19		67872
+	397634883	Cube_Dropped	D:\Week-2-Unity-Audio-Project\Week-2-Unity-Audio-Project_WwiseProject\.cache\Mac\SFX\RL_bodyfall_Wood_Rustic_M2_Distant_Mono_Soft_Impact_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MiscAudio\Cube_Dropped		97406
+	410561726	Soft rain, water flowing down from the roof and splashes on cement, city ambience, loop	D:\Week-2-Unity-Audio-Project\Week-2-Unity-Audio-Project_WwiseProject\.cache\Mac\SFX\Soft rain, water flowing down from the roof and splashes on cement, city ambience, loop_1E8147DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\WoodAudio\Soft rain, water flowing down from the roof and splashes on cement, city ambience, loop		2998804
+	430102586	GunReturn	D:\Week-2-Unity-Audio-Project\Week-2-Unity-Audio-Project_WwiseProject\.cache\Mac\SFX\Whoosh,Organic,Styrofoam,Plank,Airy,Smooth,Texture,1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GunAudio\GunReturn		171036
+	453125415	502504__rudmer_rotteveel__wood-creak-single-v2	D:\Week-2-Unity-Audio-Project\Week-2-Unity-Audio-Project_WwiseProject\.cache\Mac\SFX\Wood creak walk\502504__rudmer_rotteveel__wood-creak-single-v2_9700942E.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFootsteps\Wood creak walk\502504__rudmer_rotteveel__wood-creak-single-v2		140172
+	483000743	Gentle rain, water runs off a pebble street, recorded through an air duct, background thunder at 1_46, loop	D:\Week-2-Unity-Audio-Project\Week-2-Unity-Audio-Project_WwiseProject\.cache\Mac\SFX\Gentle rain, water runs off a pebble street, recorded through an air duct, background thunder at 1.46, loop_CF96D433.wem		\Actor-Mixer Hierarchy\Default Work Unit\WoodAudio\Gentle rain, water runs off a pebble street, recorded through an air duct, background thunder at 1_46, loop		10480612
+	540658769	PM_SDNG_Single_Step_Footstep_46	D:\Week-2-Unity-Audio-Project\Week-2-Unity-Audio-Project_WwiseProject\.cache\Mac\SFX\PM_SDNG_Single_Step_Footstep_46_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerJump\JumpV2\PM_SDNG_Single_Step_Footstep_46		101154
+	587641002	502505__rudmer_rotteveel__wood-creak-single-v1	D:\Week-2-Unity-Audio-Project\Week-2-Unity-Audio-Project_WwiseProject\.cache\Mac\SFX\502505__rudmer_rotteveel__wood-creak-single-v1_E0EDA03E.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerJump\JumpV2\502505__rudmer_rotteveel__wood-creak-single-v1		119260
+	614906492	Flatwoods_Pinecastle_Nature_Forest_Whispering_Pines_02	D:\Week-2-Unity-Audio-Project\Week-2-Unity-Audio-Project_WwiseProject\.cache\Mac\SFX\Forest_Scrub_Forest_Ambience_With_Birds_04DDB371.wem		\Actor-Mixer Hierarchy\Default Work Unit\ParkAudio\Flatwoods_Pinecastle_Nature_Forest_Whispering_Pines_02		7021784
+	837990570	502505__rudmer_rotteveel__wood-creak-single-v1	D:\Week-2-Unity-Audio-Project\Week-2-Unity-Audio-Project_WwiseProject\.cache\Mac\SFX\Wood creak walk\502505__rudmer_rotteveel__wood-creak-single-v1_CAB6F89E.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFootsteps\Wood creak walk\502505__rudmer_rotteveel__wood-creak-single-v1		152988
+	864652380	GunFire	D:\Week-2-Unity-Audio-Project\Week-2-Unity-Audio-Project_WwiseProject\.cache\Mac\SFX\Whoosh,Organic,Fabric,Glove,Airy,Breathy,Punchy_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GunAudio\GunFire		88588
+

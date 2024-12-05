@@ -1,0 +1,39 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	40188255	OnFloorboards			\Default Work Unit\OnFloorboards	
+	1911964571	HouseReverb			\Default Work Unit\HouseReverb	
+	2988454240	ReverbState			\Default Work Unit\ReverbState	
+
+State	ID	Name	State Group			Notes
+	456963982	OffFloor	OnFloorboards			
+	748895195	None	OnFloorboards			
+	4008175628	OnFloor	OnFloorboards			
+	748895195	None	HouseReverb			
+	930712164	Off	HouseReverb			
+	1651971902	On	HouseReverb			
+	748895195	None	ReverbState			
+	930712164	Off	ReverbState			
+	1651971902	On	ReverbState			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	807581652	Off	HouseReverb	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb Bus\HouseReverb		
+	910313637	Off	ReverbState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb Bus\TunnelReverb		
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	340398852	Indoor			\Default Work Unit\Master Audio Bus\Indoor	
+	1681012287	PlayerFootsteps			\Default Work Unit\Master Audio Bus\PlayerFootsteps	
+	2955179355	Reverb Bus			\Default Work Unit\Master Audio Bus\Reverb Bus	
+	3062523257	Misc			\Default Work Unit\Master Audio Bus\Misc	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1911964571	HouseReverb			\Default Work Unit\Master Audio Bus\Reverb Bus\HouseReverb	
+	4134938995	TunnelReverb			\Default Work Unit\Master Audio Bus\Reverb Bus\TunnelReverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	702543456	Tunnel1	Wwise Matrix Reverb			
+	2662085913	Large_Church1	Wwise Matrix Reverb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

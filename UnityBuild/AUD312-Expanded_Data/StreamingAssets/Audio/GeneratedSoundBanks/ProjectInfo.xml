@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Week-2-Unity-Audio-Project_WwiseProject" GUID="{B5ADFB8E-1C12-4207-8821-9D54027EF399}" Generator="2022.1.8.8316"/>
+	<CacheRoot>../../../../Week-2-Unity-Audio-Project_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{5FCD5A31-DABC-487B-8AF0-342C70072185}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../Week-2-Unity-Audio-Project_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{DA6C69FA-E55E-45DE-A96E-052F40E4EF1B}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../Week-2-Unity-Audio-Project_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{E8395588-372D-4A31-90B6-EA58FBACB2F7}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{28A35E0D-BFCE-8D1F-5CF5-2B7F8AF280B6}</FileHash>
+</ProjectInfo>

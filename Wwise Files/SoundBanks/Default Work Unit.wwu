@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F7D322E7-6101-4DF7-B9DB-9D73AE874CD1}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{F7D322E7-6101-4DF7-B9DB-9D73AE874CD1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="CMP407_SoundBankOne" ID="{ACA32E28-3005-4BB0-B4B4-9D84CDC7A961}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Cube_Dropped" ID="{D9F4A0C0-2E23-40F6-9BFC-98371D46C2A1}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ParkEvents" ID="{FAD28CA8-AD91-412E-8FA7-CC2E60D94906}" WorkUnitID="{D36DD4ED-9324-4B44-9749-4D0DD16AF846}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GunFolder" ID="{60C63AAB-CB29-4181-B45A-E0A9C6C629B4}" WorkUnitID="{D36DD4ED-9324-4B44-9749-4D0DD16AF846}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Door_Open" ID="{98B1A0C2-D1F5-4185-B9A3-BA01DE0D6515}" WorkUnitID="{D36DD4ED-9324-4B44-9749-4D0DD16AF846}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerMovement" ID="{54B22504-2872-422B-AD36-F834DE666AE4}" WorkUnitID="{D36DD4ED-9324-4B44-9749-4D0DD16AF846}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_PlayerFootsteps" ID="{15BFE34A-7A31-4273-AD92-C2169E4562FE}" WorkUnitID="{D36DD4ED-9324-4B44-9749-4D0DD16AF846}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Cube_Drop" ID="{E70716BE-FA51-475B-A46A-C40033384275}" WorkUnitID="{D36DD4ED-9324-4B44-9749-4D0DD16AF846}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dog_Bark" ID="{905A9D10-D487-481C-B0B7-6F223A9C6FD9}" WorkUnitID="{D36DD4ED-9324-4B44-9749-4D0DD16AF846}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GunAudio" ID="{47CDE5DF-A0FC-4A04-83B0-346EDA1FC68C}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RainSounds" ID="{4AE04E5A-DCDF-4A1F-B195-087BA76D52F3}" WorkUnitID="{D36DD4ED-9324-4B44-9749-4D0DD16AF846}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_Open" ID="{DD31068D-552A-4B5A-9CA3-23488A73BD67}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Cube_Drop" ID="{9D68F4EB-EFA0-4BA7-BDAB-D0CDB6371B29}" WorkUnitID="{D36DD4ED-9324-4B44-9749-4D0DD16AF846}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ParkAudio" ID="{CE62D0DC-3104-4CBC-AF7B-DDC4206FAF1B}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerJump" ID="{E5BE7A26-54C8-4E57-8CBD-97ED761FC6BC}" WorkUnitID="{D36DD4ED-9324-4B44-9749-4D0DD16AF846}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PMSFX - STEPS Dirt &amp; Gravel" ID="{300A5BB1-4501-4E92-91C6-90367FEB5990}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Dog_Bark" ID="{7C01AEDE-D236-4E95-987B-E9F50A602B69}" WorkUnitID="{D36DD4ED-9324-4B44-9749-4D0DD16AF846}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="HouseReverb" ID="{0285CB01-2125-4FF3-84AD-8650A52DE0E3}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Flatwoods_Pinecastle_Nature_Forest_Whispering_Pines_02" ID="{7A7D7E83-BFD1-4FF3-AA8C-F7A6E72C16DD}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerJump" ID="{0D99AA0C-8271-4FFF-942A-AF4B9153672B}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

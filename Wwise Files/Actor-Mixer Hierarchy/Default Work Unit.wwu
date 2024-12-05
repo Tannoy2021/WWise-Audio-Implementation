@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="MiscAudio" ID="{9A69874C-33B5-41D9-869A-E58CD3D4C3CC}" ShortID="49659159">
+					<ChildrenList>
+						<Sound Name="Door_Open" ID="{DD31068D-552A-4B5A-9CA3-23488A73BD67}" ShortID="438581603">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="CourseWork Attenuation V2" ID="{F104730B-7E41-4F38-B838-2C5750599D4B}" WorkUnitID="{B3348C71-BD39-4495-BC41-EC41BF4E8FF6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Misc" ID="{456EB70C-C30B-423E-A7EE-630D1ACAB515}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="small_fridge_open_001" ID="{0211AB2F-ADE3-4E60-87B2-FE6A623772AE}">
+									<Language>SFX</Language>
+									<AudioFile>small_fridge_open_001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="382993506"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="PM_HD_Designed_01 Doors, Old, Wooden, Scary, Horror, Open, Creeking" ID="{784E08D8-F267-473A-8D72-3054014A2DC6}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.58697965116279"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>PM_HD_Designed_01 Doors, Old, Wooden, Scary, Horror, Open, Creeking.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="137367078"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{4269BB82-C9AA-4CDA-8B41-1C7609809566}">
+									<PropertyList>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="Test_Path_V1" ID="{5CFCDEDF-57BA-4BD9-A49C-556032F3FB99}">
+											<PointList>
+												<Point>
+													<XPos>-83.75633</XPos>
+													<YPos>38.1356</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-29.94924</XPos>
+													<YPos>67.79661</YPos>
+													<Flags>0</Flags>
+													<Time>1250</Time>
+												</Point>
+												<Point>
+													<XPos>13.19797</XPos>
+													<YPos>68.36158</YPos>
+													<Flags>0</Flags>
+													<Time>2500</Time>
+												</Point>
+												<Point>
+													<XPos>55.83756</XPos>
+													<YPos>49.15254</YPos>
+													<Flags>0</Flags>
+													<Time>3750</Time>
+												</Point>
+												<Point>
+													<XPos>89.84772</XPos>
+													<YPos>27.68362</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="small_fridge_open_001_Path" ID="{538BA3A1-61A0-42B1-BBD7-2F695A6EAC9E}">
+											<PointList>
+												<Point>
+													<XPos>61.92893</XPos>
+													<YPos>48.87006</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="small_fridge_open_001_Path_01" ID="{4AA73D3D-05B5-4891-9B69-6C1A8945D759}">
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="PM_HD_Designed_01 Doors, Old, Wooden, Scary, Horror, Open, Creeking" ID="{784E08D8-F267-473A-8D72-3054014A2DC6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Dog_Bark" ID="{198E0D8A-4C84-4E1A-ABDB-33378AFAF895}" ShortID="322712507">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="CourseWork Atteniatuion V1" ID="{28C851E5-25D4-4000-9FFC-160638B7486A}" WorkUnitID="{B3348C71-BD39-4495-BC41-EC41BF4E8FF6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="TestConversionSettings" ID="{B595DEC8-1743-44C8-809E-98B7E846F6D3}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Misc" ID="{456EB70C-C30B-423E-A7EE-630D1ACAB515}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dog_German_Shepherd_t2_Ext_Field_Bark_Many_TImes_Start_and_Stop_DPA4060" ID="{FE8DAB43-A676-4D60-8E7D-96B2B76AB087}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.195058775811209"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.83149479166667"/>
+										<Property Name="TrimEnd" Type="Real64" Value="9.31405654498525"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Dog_German_Shepherd_t2_Ext_Field_Bark_Many_TImes_Start_and_Stop_DPA4060.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="214838300"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Dog_German_Shepherd_t2_Ext_Field_Bark_Many_TImes_Start_and_Stop_DPA4060" ID="{FE8DAB43-A676-4D60-8E7D-96B2B76AB087}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cube_Dropped" ID="{D9F4A0C0-2E23-40F6-9BFC-98371D46C2A1}" ShortID="633162694">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RL_bodyfall_Wood_Rustic_M2_Distant_Mono_Soft_Impact_07" ID="{6AD8BDC9-B5C9-4ECA-9854-A3B512E2E8E6}">
+									<Language>SFX</Language>
+									<AudioFile>RL_bodyfall_Wood_Rustic_M2_Distant_Mono_Soft_Impact_07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="397634883"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RL_bodyfall_Wood_Rustic_M2_Distant_Mono_Soft_Impact_07" ID="{6AD8BDC9-B5C9-4ECA-9854-A3B512E2E8E6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="PlayerJump" ID="{0D99AA0C-8271-4FFF-942A-AF4B9153672B}" ShortID="40075565">
+					<ChildrenList>
+						<SwitchContainer Name="JumpV1" ID="{CA71C025-E8D3-441D-92DA-A642AEF5C8D3}" ShortID="216792207">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Dirt_Switch" ID="{A6088BC1-A531-4818-B09F-D57482887D1D}" WorkUnitID="{59ED04D8-1032-40F3-B18E-A3335111E0DA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="PlayerFootsteps" ID="{1606FB84-34B8-425F-8964-72E489FEE5C5}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="PlayerFootsteps" ID="{2B91386C-36F7-439B-BA27-04A7D6601060}" WorkUnitID="{59ED04D8-1032-40F3-B18E-A3335111E0DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="PM_SDNG_Single_Step_Footstep_19" ID="{C6A577B5-3C2C-4DEB-BD90-8B5A26E6A871}" ShortID="336627767">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>43</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5624701D-1976-4804-BC4A-E5D1E85FE42B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="40"/>
+															<Property Name="Min" Type="Real64" Value="-35"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PM_SDNG_Single_Step_Footstep_19" ID="{04566F76-C955-4E59-B2EF-34AF44C83D02}">
+											<Language>SFX</Language>
+											<AudioFile>PM_SDNG_Single_Step_Footstep_19.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="281187969"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PM_SDNG_Single_Step_Footstep_19" ID="{04566F76-C955-4E59-B2EF-34AF44C83D02}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="502504__rudmer_rotteveel__wood-creak-single-v2" ID="{5C923DEE-EBE4-46A9-A008-33EA3D67E5EE}" ShortID="451422555">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{43E11C28-71C2-42C9-B28F-5D83CB21725E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-1415"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="502504__rudmer_rotteveel__wood-creak-single-v2" ID="{452E605F-68B3-49C2-B769-51069DCDD917}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0346109385783298"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.501034539419634"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>502504__rudmer_rotteveel__wood-creak-single-v2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="214786798"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="502504__rudmer_rotteveel__wood-creak-single-v2" ID="{452E605F-68B3-49C2-B769-51069DCDD917}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="PM_SDNG_Single_Step_Footstep_19" ID="{C6A577B5-3C2C-4DEB-BD90-8B5A26E6A871}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="502504__rudmer_rotteveel__wood-creak-single-v2" ID="{5C923DEE-EBE4-46A9-A008-33EA3D67E5EE}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Wood_Switch" ID="{700EEA75-9FE3-43F8-92C3-E59A6C5E51CB}"/>
+										<ItemList>
+											<ItemRef Name="502504__rudmer_rotteveel__wood-creak-single-v2" ID="{5C923DEE-EBE4-46A9-A008-33EA3D67E5EE}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Dirt_Switch" ID="{A6088BC1-A531-4818-B09F-D57482887D1D}"/>
+										<ItemList>
+											<ItemRef Name="PM_SDNG_Single_Step_Footstep_19" ID="{C6A577B5-3C2C-4DEB-BD90-8B5A26E6A871}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="JumpV2" ID="{7A7C7DCC-EC08-4AFB-B79F-71FCFF3DE884}" ShortID="126549427">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Dirt_Switch" ID="{A6088BC1-A531-4818-B09F-D57482887D1D}" WorkUnitID="{59ED04D8-1032-40F3-B18E-A3335111E0DA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="PlayerFootsteps" ID="{1606FB84-34B8-425F-8964-72E489FEE5C5}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="PlayerFootsteps" ID="{2B91386C-36F7-439B-BA27-04A7D6601060}" WorkUnitID="{59ED04D8-1032-40F3-B18E-A3335111E0DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="PM_SDNG_Single_Step_Footstep_46" ID="{2B15E94E-09EF-49E5-A94A-F4A33E214763}" ShortID="426824595">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>39</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C3B12C0B-0AAC-44C3-9AE3-8C5CF8B1CF06}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="37"/>
+															<Property Name="Min" Type="Real64" Value="-44"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PM_SDNG_Single_Step_Footstep_46" ID="{A34A0895-780C-4BAA-9244-6FFFA8E866E4}">
+											<Language>SFX</Language>
+											<AudioFile>PM_SDNG_Single_Step_Footstep_46.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="540658769"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PM_SDNG_Single_Step_Footstep_46" ID="{A34A0895-780C-4BAA-9244-6FFFA8E866E4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="502505__rudmer_rotteveel__wood-creak-single-v1" ID="{2A239021-66CA-40FF-AD0E-D44CE3A1C273}" ShortID="451849349">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BD906F36-4C26-414A-9091-5B9499DFE970}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-1491"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="502505__rudmer_rotteveel__wood-creak-single-v1" ID="{1ABD60CA-D7CF-4E0A-B241-82B9D1C0D7BB}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.67554347826087"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>502505__rudmer_rotteveel__wood-creak-single-v1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="587641002"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="502505__rudmer_rotteveel__wood-creak-single-v1" ID="{1ABD60CA-D7CF-4E0A-B241-82B9D1C0D7BB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="502505__rudmer_rotteveel__wood-creak-single-v1" ID="{2A239021-66CA-40FF-AD0E-D44CE3A1C273}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="PM_SDNG_Single_Step_Footstep_46" ID="{2B15E94E-09EF-49E5-A94A-F4A33E214763}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Wood_Switch" ID="{700EEA75-9FE3-43F8-92C3-E59A6C5E51CB}"/>
+										<ItemList>
+											<ItemRef Name="502505__rudmer_rotteveel__wood-creak-single-v1" ID="{2A239021-66CA-40FF-AD0E-D44CE3A1C273}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Dirt_Switch" ID="{A6088BC1-A531-4818-B09F-D57482887D1D}"/>
+										<ItemList>
+											<ItemRef Name="PM_SDNG_Single_Step_Footstep_46" ID="{2B15E94E-09EF-49E5-A94A-F4A33E214763}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</Folder>
+				<SwitchContainer Name="PlayerFootsteps" ID="{A798577A-5141-45FC-BAA8-08829EA93844}" ShortID="1026671463">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Dirt_Switch" ID="{A6088BC1-A531-4818-B09F-D57482887D1D}" WorkUnitID="{59ED04D8-1032-40F3-B18E-A3335111E0DA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="PlayerFootsteps" ID="{1606FB84-34B8-425F-8964-72E489FEE5C5}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="PlayerFootsteps" ID="{2B91386C-36F7-439B-BA27-04A7D6601060}" WorkUnitID="{59ED04D8-1032-40F3-B18E-A3335111E0DA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Wood creak walk" ID="{2412E3B3-70E1-4EE3-B67F-FC1C4DD80D04}" ShortID="603330002">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{94437DF7-2763-46C9-9756-F903B6092899}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="556"/>
+													<Property Name="Min" Type="Real64" Value="-808"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="502504__rudmer_rotteveel__wood-creak-single-v2" ID="{F9E3E65E-3129-4845-AC91-F34B06EEFE8F}" ShortID="933054864">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>33</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="502504__rudmer_rotteveel__wood-creak-single-v2" ID="{A19A4202-2CB3-4935-98DA-CF2EE6737CAE}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0626293174274541"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.794087971568291"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Wood creak walk\502504__rudmer_rotteveel__wood-creak-single-v2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="453125415"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="502504__rudmer_rotteveel__wood-creak-single-v2" ID="{A19A4202-2CB3-4935-98DA-CF2EE6737CAE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="502505__rudmer_rotteveel__wood-creak-single-v1" ID="{B68FD2A9-9E8E-4AFC-920C-C0B94B0A018D}" ShortID="919110886">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>34</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="502505__rudmer_rotteveel__wood-creak-single-v1" ID="{56A2BF3A-4821-4A00-9602-16D81F8A3B13}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.866739975094373"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Wood creak walk\502505__rudmer_rotteveel__wood-creak-single-v1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="837990570"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="502505__rudmer_rotteveel__wood-creak-single-v1" ID="{56A2BF3A-4821-4A00-9602-16D81F8A3B13}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="502511__rudmer_rotteveel__wood-creak-single-v3" ID="{267C8052-3115-4316-ACA8-3CF09EE8E888}" ShortID="454716480">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>33</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="502511__rudmer_rotteveel__wood-creak-single-v3" ID="{7E541E99-7B6D-4854-8361-F5506CCC2F88}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.02660239346575"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Wood creak walk\502511__rudmer_rotteveel__wood-creak-single-v3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="31621152"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="502511__rudmer_rotteveel__wood-creak-single-v3" ID="{7E541E99-7B6D-4854-8361-F5506CCC2F88}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="PMSFX - STEPS Dirt &amp; Gravel" ID="{300A5BB1-4501-4E92-91C6-90367FEB5990}" ShortID="281797709">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{29EFB909-5E12-4A3E-A00F-8BF03135F7D3}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="500"/>
+													<Property Name="Min" Type="Real64" Value="-500"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Parametric EQ (Custom)" ID="{1A0513AB-C739-4AF9-A91D-6455BD233456}" ShortID="998138508" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FrequencyBand3" Type="Real32" Value="4339"/>
+												<Property Name="GainBand3" Type="Real32" Value="-7"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="PM_SDNG_Single_Step_Footstep_19" ID="{EB923C33-FC68-4F6B-A6DA-01856CB2241A}" ShortID="950797031">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PM_SDNG_Single_Step_Footstep_19" ID="{711A20D2-9721-4873-BF52-00BB4E03A833}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.103739309210526"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.239176740679824"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.706003632127193"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PMSFX - STEPS Dirt &amp; Gravel\PM_SDNG_Single_Step_Footstep_19.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="390502426"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PM_SDNG_Single_Step_Footstep_19" ID="{711A20D2-9721-4873-BF52-00BB4E03A833}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PM_SDNG_Single_Step_Footstep_46" ID="{E986AD0E-D760-4B3D-94C3-9E11B33D8C72}" ShortID="352897573">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PM_SDNG_Single_Step_Footstep_46" ID="{3420D0B3-1763-4329-B121-99E1938B3AF9}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0173139391447366"/>
+												<Property Name="LoopEnd" Type="Real64" Value="0.609450657894737"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.616376233552633"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PMSFX - STEPS Dirt &amp; Gravel\PM_SDNG_Single_Step_Footstep_46.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="97636047"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PM_SDNG_Single_Step_Footstep_46" ID="{3420D0B3-1763-4329-B121-99E1938B3AF9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="PMSFX - STEPS Dirt &amp; Gravel" ID="{300A5BB1-4501-4E92-91C6-90367FEB5990}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Wood creak walk" ID="{2412E3B3-70E1-4EE3-B67F-FC1C4DD80D04}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Wood_Switch" ID="{700EEA75-9FE3-43F8-92C3-E59A6C5E51CB}"/>
+								<ItemList>
+									<ItemRef Name="Wood creak walk" ID="{2412E3B3-70E1-4EE3-B67F-FC1C4DD80D04}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dirt_Switch" ID="{A6088BC1-A531-4818-B09F-D57482887D1D}"/>
+								<ItemList>
+									<ItemRef Name="PMSFX - STEPS Dirt &amp; Gravel" ID="{300A5BB1-4501-4E92-91C6-90367FEB5990}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<Folder Name="WoodAudio" ID="{A6B23AC2-CB0E-4A1D-8F15-0F04BD2151D6}" ShortID="277697925">
+					<ChildrenList>
+						<Sound Name="Soft rain, water flowing down from the roof and splashes on cement, city ambience, loop" ID="{0EBAAF83-1B86-4E03-A855-E84A45DDE940}" ShortID="604035224">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Rain sound Attenuation" ID="{EBBF7CF3-E28B-4FFD-9503-16F806E5AAE6}" WorkUnitID="{B3348C71-BD39-4495-BC41-EC41BF4E8FF6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="TestConversionSettings" ID="{B595DEC8-1743-44C8-809E-98B7E846F6D3}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Indoor" ID="{3382AE18-FBAF-4103-96F6-45339746D4BE}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Soft rain, water flowing down from the roof and splashes on cement, city ambience, loop" ID="{8F23C221-853A-4736-86DA-6C74E39582FB}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="82.1075268817202"/>
+										<Property Name="TrimEnd" Type="Real64" Value="97.7258064516129"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Soft rain, water flowing down from the roof and splashes on cement, city ambience, loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="410561726"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="OnFloorboards" ID="{3D941913-AA4A-44B1-93F4-E5C041813AFD}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="OnFloor" ID="{8D0CAD1E-0DAE-41EC-8021-A857CD1707EC}"/>
+										<CustomState Name="" ID="{86030083-3C2D-48B7-83AF-225B46901BB9}" ShortID="978384858"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="OffFloor" ID="{1ED59F25-CF39-4A9E-BDC6-B33DD6FA10E4}"/>
+										<CustomState Name="" ID="{C89F3AEA-DE6F-4B49-96A1-62C2C317B305}" ShortID="83633804">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Soft rain, water flowing down from the roof and splashes on cement, city ambience, loop" ID="{8F23C221-853A-4736-86DA-6C74E39582FB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gentle rain, water runs off a pebble street, recorded through an air duct, background thunder at 1_46, loop" ID="{804D4646-AC24-4598-B9F7-504108B35749}" ShortID="893013417">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Rain sound Attenuation" ID="{EBBF7CF3-E28B-4FFD-9503-16F806E5AAE6}" WorkUnitID="{B3348C71-BD39-4495-BC41-EC41BF4E8FF6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="TestConversionSettings" ID="{B595DEC8-1743-44C8-809E-98B7E846F6D3}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Indoor" ID="{3382AE18-FBAF-4103-96F6-45339746D4BE}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gentle rain, water runs off a pebble street, recorded through an air duct, background thunder at 1_46, loop" ID="{5EEA959F-2A61-45F6-A6B3-FD274306F39E}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="88.4139784946237"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="88.4139784946237"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Gentle rain, water runs off a pebble street, recorded through an air duct, background thunder at 1.46, loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="483000743"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="OnFloorboards" ID="{3D941913-AA4A-44B1-93F4-E5C041813AFD}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="OnFloor" ID="{8D0CAD1E-0DAE-41EC-8021-A857CD1707EC}"/>
+										<CustomState Name="" ID="{39CF829E-53DE-40C8-A69D-53A0188FAC3C}" ShortID="658705310">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="OffFloor" ID="{1ED59F25-CF39-4A9E-BDC6-B33DD6FA10E4}"/>
+										<CustomState Name="" ID="{A968C2AC-5FEE-40D5-8103-80E6F8EAB40D}" ShortID="988370053"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Gentle rain, water runs off a pebble street, recorded through an air duct, background thunder at 1_46, loop" ID="{5EEA959F-2A61-45F6-A6B3-FD274306F39E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="ParkAudio" ID="{CE62D0DC-3104-4CBC-AF7B-DDC4206FAF1B}" ShortID="181732367">
+					<ChildrenList>
+						<Sound Name="Flatwoods_Pinecastle_Nature_Forest_Whispering_Pines_02" ID="{7A7D7E83-BFD1-4FF3-AA8C-F7A6E72C16DD}" ShortID="439738860">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="CourseWork Park Attenuation V1" ID="{FE2E7E06-BBB7-4810-A3C7-DFFB4E6444A5}" WorkUnitID="{B3348C71-BD39-4495-BC41-EC41BF4E8FF6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="TestConversionSettings" ID="{B595DEC8-1743-44C8-809E-98B7E846F6D3}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flatwoods_Pinecastle_Nature_Forest_Whispering_Pines_02" ID="{0461F73D-9660-47B8-A021-E9EB02105545}">
+									<Language>SFX</Language>
+									<AudioFile>Flatwoods_Pinecastle_Nature_Forest_Whispering_Pines_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="380379144"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Forest_Scrub_Forest_Ambience_With_Birds" ID="{B8C1EE4E-B254-415E-8A3C-5971277A1EB3}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="124.734233788853"/>
+										<Property Name="TrimEnd" Type="Real64" Value="161.305527465166"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Forest_Scrub_Forest_Ambience_With_Birds.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="614906492"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Forest_Scrub_Forest_Ambience_With_Birds" ID="{B8C1EE4E-B254-415E-8A3C-5971277A1EB3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="GunAudio" ID="{47CDE5DF-A0FC-4A04-83B0-346EDA1FC68C}" ShortID="655621182">
+					<ChildrenList>
+						<Sound Name="GunFire" ID="{CF0395A0-52FD-410D-9228-A19B863D52F5}" ShortID="641336051">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{25CC106F-B9F8-4140-8EDB-A69FF4BF0AD0}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-1895"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="CourseWork Atteniatuion V1" ID="{28C851E5-25D4-4000-9FFC-160638B7486A}" WorkUnitID="{B3348C71-BD39-4495-BC41-EC41BF4E8FF6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Whoosh,Organic,Fabric,Glove,Airy,Breathy,Punchy" ID="{7C8536DA-3858-49CE-B340-4EE224D09357}">
+									<Language>SFX</Language>
+									<AudioFile>Whoosh,Organic,Fabric,Glove,Airy,Breathy,Punchy.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="864652380"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Whoosh,Organic,Fabric,Glove,Airy,Breathy,Punchy" ID="{7C8536DA-3858-49CE-B340-4EE224D09357}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GunReturn" ID="{F7FE3295-CEC7-4963-8129-CA89BAB521D3}" ShortID="777869408">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8D9505AB-FD93-4F66-806F-14BD08802E14}">
+												<PropertyList>
+													<Property Name="Min" Type="Real64" Value="-1971"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="CourseWork Atteniatuion V1" ID="{28C851E5-25D4-4000-9FFC-160638B7486A}" WorkUnitID="{B3348C71-BD39-4495-BC41-EC41BF4E8FF6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{808F9BF0-6273-4A18-96AF-7DE3CE188FE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Whoosh,Organic,Styrofoam,Plank,Airy,Smooth,Texture,1" ID="{647E7D1D-D78F-46CA-B966-B8246364C11F}">
+									<Language>SFX</Language>
+									<AudioFile>Whoosh,Organic,Styrofoam,Plank,Airy,Smooth,Texture,1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="430102586"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Whoosh,Organic,Styrofoam,Plank,Airy,Smooth,Texture,1" ID="{647E7D1D-D78F-46CA-B966-B8246364C11F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

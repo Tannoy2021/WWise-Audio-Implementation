@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D36DD4ED-9324-4B44-9749-4D0DD16AF846}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{D36DD4ED-9324-4B44-9749-4D0DD16AF846}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="PlayerMovement" ID="{54B22504-2872-422B-AD36-F834DE666AE4}" ShortID="1030409459">
+					<ChildrenList>
+						<Event Name="Play_PlayerFootsteps" ID="{15BFE34A-7A31-4273-AD92-C2169E4562FE}">
+							<ChildrenList>
+								<Action Name="" ID="{BDB77B55-6ADF-48E9-9275-334DE15B9801}" ShortID="516875437">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerFootsteps" ID="{A798577A-5141-45FC-BAA8-08829EA93844}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="MiscFolder" ID="{0C39F276-F665-47DF-BF91-69F7DF2C0A01}" ShortID="500247473">
+					<ChildrenList>
+						<Event Name="Stop_Dog_Bark" ID="{7C01AEDE-D236-4E95-987B-E9F50A602B69}">
+							<ChildrenList>
+								<Action Name="" ID="{CC351287-E166-44AC-AFFC-0B162346EFC2}" ShortID="482221403">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dog_Bark" ID="{198E0D8A-4C84-4E1A-ABDB-33378AFAF895}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Door_Open" ID="{98B1A0C2-D1F5-4185-B9A3-BA01DE0D6515}">
+							<ChildrenList>
+								<Action Name="" ID="{88B4C6FC-E3A0-4418-BBD4-8135A40C0539}" ShortID="290893543">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door_Open" ID="{DD31068D-552A-4B5A-9CA3-23488A73BD67}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Door_Open" ID="{59EF00F6-AC19-452E-A96F-A39470D0A2D9}">
+							<ChildrenList>
+								<Action Name="" ID="{1846ECCD-9D49-48F6-9A02-5FB69569138D}" ShortID="1030518218">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door_Open" ID="{DD31068D-552A-4B5A-9CA3-23488A73BD67}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Dog_Bark" ID="{905A9D10-D487-481C-B0B7-6F223A9C6FD9}">
+							<ChildrenList>
+								<Action Name="" ID="{70B67B6C-4C6F-43E0-A8C8-D75E9B76D30E}" ShortID="676925401">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dog_Bark" ID="{198E0D8A-4C84-4E1A-ABDB-33378AFAF895}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Cube_Drop" ID="{E70716BE-FA51-475B-A46A-C40033384275}">
+							<ChildrenList>
+								<Action Name="" ID="{AA7D2FF0-0839-435E-90DD-A3F2CECE2AD9}" ShortID="747746895">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cube_Dropped" ID="{D9F4A0C0-2E23-40F6-9BFC-98371D46C2A1}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cube_Drop" ID="{9D68F4EB-EFA0-4BA7-BDAB-D0CDB6371B29}">
+							<ChildrenList>
+								<Action Name="" ID="{A7450F62-7EDB-4395-B47A-11369A0F7FE0}" ShortID="595626112">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cube_Dropped" ID="{D9F4A0C0-2E23-40F6-9BFC-98371D46C2A1}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="PlayerJump" ID="{E5BE7A26-54C8-4E57-8CBD-97ED761FC6BC}" ShortID="1027243470">
+					<ChildrenList>
+						<Event Name="Player_Jumped" ID="{6D213B99-C708-414F-9353-255E94C1AFAB}">
+							<ChildrenList>
+								<Action Name="" ID="{3A5385C8-D42A-4783-A9AE-090D26BB4163}" ShortID="161778513">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="JumpV2" ID="{7A7C7DCC-EC08-4AFB-B79F-71FCFF3DE884}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5972B73E-7CCF-47A1-82B4-5CC2B625EB17}" ShortID="720479912">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="JumpV1" ID="{CA71C025-E8D3-441D-92DA-A642AEF5C8D3}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="RainSounds" ID="{4AE04E5A-DCDF-4A1F-B195-087BA76D52F3}" ShortID="997302611">
+					<ChildrenList>
+						<Event Name="Play_Gentle_rain_" ID="{54762EB9-0B92-4098-BFA3-C043DC38DF2C}">
+							<ChildrenList>
+								<Action Name="" ID="{8CB40C35-63FA-4AA0-9D7E-CAAC770F97FA}" ShortID="32531104">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gentle rain, water runs off a pebble street, recorded through an air duct, background thunder at 1_46, loop" ID="{804D4646-AC24-4598-B9F7-504108B35749}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BA7D6047-7AF3-436E-B2F0-407D268C1DA6}" ShortID="334848537">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soft rain, water flowing down from the roof and splashes on cement, city ambience, loop" ID="{0EBAAF83-1B86-4E03-A855-E84A45DDE940}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Gentle_rain_" ID="{7B7E0DC2-F01E-41D7-9B79-6C7077CD90D6}">
+							<ChildrenList>
+								<Action Name="" ID="{A22465E1-D85A-40A0-AB44-822530B2165A}" ShortID="1057292727">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soft rain, water flowing down from the roof and splashes on cement, city ambience, loop" ID="{0EBAAF83-1B86-4E03-A855-E84A45DDE940}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B47259B3-0432-4C10-8869-888CDC014A80}" ShortID="460038794">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gentle rain, water runs off a pebble street, recorded through an air duct, background thunder at 1_46, loop" ID="{804D4646-AC24-4598-B9F7-504108B35749}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="ParkEvents" ID="{FAD28CA8-AD91-412E-8FA7-CC2E60D94906}" ShortID="511507615">
+					<ChildrenList>
+						<Event Name="Stop_Flatwoods_Pinecastle_Nature_Forest_Whispering_Pines_02" ID="{29601836-3F04-45C8-A506-FA51CBD22EE1}">
+							<ChildrenList>
+								<Action Name="" ID="{D4396FAA-37BF-4076-863B-E7EEE2E23919}" ShortID="958510186">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Flatwoods_Pinecastle_Nature_Forest_Whispering_Pines_02" ID="{7A7D7E83-BFD1-4FF3-AA8C-F7A6E72C16DD}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Flatwoods_Pinecastle_Nature_Forest_Whispering_Pines_02" ID="{9FE07FF9-4852-401C-BC40-3BF75ACCC8B4}">
+							<ChildrenList>
+								<Action Name="" ID="{F9575718-B664-4B83-B5F1-9C18A58FA1A8}" ShortID="126715156">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Flatwoods_Pinecastle_Nature_Forest_Whispering_Pines_02" ID="{7A7D7E83-BFD1-4FF3-AA8C-F7A6E72C16DD}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="GunFolder" ID="{60C63AAB-CB29-4181-B45A-E0A9C6C629B4}" ShortID="791652152">
+					<ChildrenList>
+						<Event Name="Play_GunFire" ID="{C017799C-4739-434E-9C4A-5ED67AEAB16F}">
+							<ChildrenList>
+								<Action Name="" ID="{6A624347-5A30-4E5F-9923-ECD4C70DA8D0}" ShortID="75211344">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GunFire" ID="{CF0395A0-52FD-410D-9228-A19B863D52F5}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_GunReturn" ID="{C34F8A21-1738-47C0-A312-00E02501A48B}">
+							<ChildrenList>
+								<Action Name="" ID="{058E5FB4-25E3-4BAF-AF80-28276297A08B}" ShortID="632048097">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GunReturn" ID="{F7FE3295-CEC7-4963-8129-CA89BAB521D3}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Stop_Gentle_rain__water_runs_off_a_pebble_street__recorded_through_an_air_duct__background_thunder_at_1_46__loop" ID="{BD173485-330B-49B0-9DD3-3912CA6B3589}">
+					<ChildrenList>
+						<Action Name="" ID="{BD8F768F-061C-4279-89F7-58236537258D}" ShortID="111621331">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gentle rain, water runs off a pebble street, recorded through an air duct, background thunder at 1_46, loop" ID="{804D4646-AC24-4598-B9F7-504108B35749}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Soft_rain__water_flowing_down_from_the_roof_and_splashes_on_cement__city_ambience__loop" ID="{57315821-E62B-49C6-8DED-03920186E64D}">
+					<ChildrenList>
+						<Action Name="" ID="{768B699E-EFED-47B7-876B-9E9B5550F847}" ShortID="412429130">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soft rain, water flowing down from the roof and splashes on cement, city ambience, loop" ID="{0EBAAF83-1B86-4E03-A855-E84A45DDE940}" WorkUnitID="{22C11861-8DAA-4928-81E5-905E1BC2D5C1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

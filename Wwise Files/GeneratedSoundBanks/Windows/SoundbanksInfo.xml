@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9062CCC2-43A9-C6C2-4343-8011D211B8BC}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="702543456" Name="Tunnel1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="2662085913" Name="Large_Church1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="340398852" Name="Indoor"/>
+				<Bus Id="1681012287" Name="PlayerFootsteps">
+					<AuxBusRefs>
+						<AuxBusRef Id="1911964571" Name="HouseReverb"/>
+						<AuxBusRef Id="4134938995" Name="TunnelReverb"/>
+					</AuxBusRefs>
+				</Bus>
+				<Bus Id="2955179355" Name="Reverb Bus"/>
+				<Bus Id="3062523257" Name="Misc"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="1911964571" Name="HouseReverb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2662085913"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="4134938995" Name="TunnelReverb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="702543456"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<StateGroups>
+				<StateGroup Id="40188255" Name="OnFloorboards">
+					<States>
+						<State Id="456963982" Name="OffFloor"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="4008175628" Name="OnFloor"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1911964571" Name="HouseReverb">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="930712164" Name="Off"/>
+						<State Id="1651971902" Name="On"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2988454240" Name="ReverbState">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="930712164" Name="Off"/>
+						<State Id="1651971902" Name="On"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="1681012287" Name="PlayerFootsteps">
+					<Switches>
+						<Switch Id="2252631665" Name="Wood_Switch"/>
+						<Switch Id="2766765585" Name="Dirt_Switch"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2478695288" Type="User" Language="SFX" Hash="{710AB865-28FC-794E-1B80-BE72C7350162}">
+			<ShortName>CMP407_SoundBankOne</ShortName>
+			<Path>CMP407_SoundBankOne.bnk</Path>
+			<Media>
+				<File Id="31621152" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood creak walk\502511__rudmer_rotteveel__wood-creak-single-v3.wav</ShortName>
+					<CachePath>SFX/Wood creak walk/502511__rudmer_rotteveel__wood-creak-single-v3_D22B5ADC.wem</CachePath>
+				</File>
+				<File Id="97636047" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PMSFX - STEPS Dirt &amp; Gravel\PM_SDNG_Single_Step_Footstep_46.wav</ShortName>
+					<CachePath>SFX/PMSFX - STEPS Dirt &amp; Gravel/PM_SDNG_Single_Step_Footstep_46_7A687B33.wem</CachePath>
+				</File>
+				<File Id="137367078" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PM_HD_Designed_01 Doors, Old, Wooden, Scary, Horror, Open, Creeking.wav</ShortName>
+					<CachePath>SFX/PM_HD_Designed_01 Doors, Old, Wooden, Scary, Horror, Open, Creeking_8C0ECA4A.wem</CachePath>
+				</File>
+				<File Id="214786798" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>502504__rudmer_rotteveel__wood-creak-single-v2.wav</ShortName>
+					<CachePath>SFX/502504__rudmer_rotteveel__wood-creak-single-v2_C46D0D0F.wem</CachePath>
+				</File>
+				<File Id="214838300" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dog_German_Shepherd_t2_Ext_Field_Bark_Many_TImes_Start_and_Stop_DPA4060.wav</ShortName>
+					<CachePath>SFX/Dog_German_Shepherd_t2_Ext_Field_Bark_Many_TImes_Start_and_Stop_DPA4060_8C5E4359.wem</CachePath>
+				</File>
+				<File Id="281187969" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PM_SDNG_Single_Step_Footstep_19.wav</ShortName>
+					<CachePath>SFX/PM_SDNG_Single_Step_Footstep_19_10C4C929.wem</CachePath>
+				</File>
+				<File Id="390502426" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PMSFX - STEPS Dirt &amp; Gravel\PM_SDNG_Single_Step_Footstep_19.wav</ShortName>
+					<CachePath>SFX/PMSFX - STEPS Dirt &amp; Gravel/PM_SDNG_Single_Step_Footstep_19_9EB4AA54.wem</CachePath>
+				</File>
+				<File Id="397634883" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RL_bodyfall_Wood_Rustic_M2_Distant_Mono_Soft_Impact_07.wav</ShortName>
+					<CachePath>SFX/RL_bodyfall_Wood_Rustic_M2_Distant_Mono_Soft_Impact_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="410561726" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soft rain, water flowing down from the roof and splashes on cement, city ambience, loop.wav</ShortName>
+					<CachePath>SFX/Soft rain, water flowing down from the roof and splashes on cement, city ambience, loop_EA82D16B.wem</CachePath>
+				</File>
+				<File Id="430102586" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Whoosh,Organic,Styrofoam,Plank,Airy,Smooth,Texture,1.wav</ShortName>
+					<CachePath>SFX/Whoosh,Organic,Styrofoam,Plank,Airy,Smooth,Texture,1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="453125415" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood creak walk\502504__rudmer_rotteveel__wood-creak-single-v2.wav</ShortName>
+					<CachePath>SFX/Wood creak walk/502504__rudmer_rotteveel__wood-creak-single-v2_9700942E.wem</CachePath>
+				</File>
+				<File Id="483000743" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gentle rain, water runs off a pebble street, recorded through an air duct, background thunder at 1.46, loop.wav</ShortName>
+					<CachePath>SFX/Gentle rain, water runs off a pebble street, recorded through an air duct, background thunder at 1.46, loop_40901D83.wem</CachePath>
+				</File>
+				<File Id="540658769" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PM_SDNG_Single_Step_Footstep_46.wav</ShortName>
+					<CachePath>SFX/PM_SDNG_Single_Step_Footstep_46_10C4C929.wem</CachePath>
+				</File>
+				<File Id="587641002" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>502505__rudmer_rotteveel__wood-creak-single-v1.wav</ShortName>
+					<CachePath>SFX/502505__rudmer_rotteveel__wood-creak-single-v1_E0EDA03E.wem</CachePath>
+				</File>
+				<File Id="614906492" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Forest_Scrub_Forest_Ambience_With_Birds.wav</ShortName>
+					<CachePath>SFX/Forest_Scrub_Forest_Ambience_With_Birds_59D7D441.wem</CachePath>
+				</File>
+				<File Id="837990570" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood creak walk\502505__rudmer_rotteveel__wood-creak-single-v1.wav</ShortName>
+					<CachePath>SFX/Wood creak walk/502505__rudmer_rotteveel__wood-creak-single-v1_CAB6F89E.wem</CachePath>
+				</File>
+				<File Id="864652380" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Whoosh,Organic,Fabric,Glove,Airy,Breathy,Punchy.wav</ShortName>
+					<CachePath>SFX/Whoosh,Organic,Fabric,Glove,Airy,Breathy,Punchy_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2662085913" Name="Large_Church1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="797967755" Name="Play_Cube_Drop">
+					<MediaRefs>
+						<MediaRef Id="397634883"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2632436053" Name="Play_Dog_Bark" MaxAttenuation="40">
+					<MediaRefs>
+						<MediaRef Id="214838300"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1660008929" Name="Play_Door_Open" MaxAttenuation="15">
+					<MediaRefs>
+						<MediaRef Id="137367078"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1416473844" Name="Play_Flatwoods_Pinecastle_Nature_Forest_Whispering_Pines_02" MaxAttenuation="40">
+					<MediaRefs>
+						<MediaRef Id="614906492"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="502601669" Name="Play_Gentle_rain_" MaxAttenuation="34">
+					<MediaRefs>
+						<MediaRef Id="410561726"/>
+						<MediaRef Id="483000743"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="434087672" Name="Play_GunFire" MaxAttenuation="40">
+					<MediaRefs>
+						<MediaRef Id="864652380"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4111168190" Name="Play_GunReturn" MaxAttenuation="40">
+					<MediaRefs>
+						<MediaRef Id="430102586"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1805011878" Name="Play_PlayerFootsteps">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1681012287" Id="2252631665"/>
+							<MediaRefs>
+								<MediaRef Id="31621152"/>
+								<MediaRef Id="453125415"/>
+								<MediaRef Id="837990570"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1681012287" Id="2766765585" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="97636047"/>
+								<MediaRef Id="390502426"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1681012287" Id="2252631665"/>
+							<MediaRefs>
+								<MediaRef Id="31621152"/>
+								<MediaRef Id="453125415"/>
+								<MediaRef Id="837990570"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1681012287" Id="2766765585" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="97636047"/>
+								<MediaRef Id="390502426"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2245143482" Name="Player_Jumped">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1681012287" Id="2252631665"/>
+							<MediaRefs>
+								<MediaRef Id="214786798"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1681012287" Id="2766765585" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="281187969"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1681012287" Id="2252631665"/>
+							<MediaRefs>
+								<MediaRef Id="587641002"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1681012287" Id="2766765585" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="540658769"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1681012287" Id="2252631665"/>
+							<MediaRefs>
+								<MediaRef Id="587641002"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1681012287" Id="2766765585" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="540658769"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1681012287" Id="2252631665"/>
+							<MediaRefs>
+								<MediaRef Id="214786798"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1681012287" Id="2766765585" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="281187969"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2406746617" Name="Stop_Cube_Drop" MaxAttenuation="0">
+					<MediaRefs>
+						<MediaRef Id="397634883"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1683706515" Name="Stop_Dog_Bark" MaxAttenuation="0">
+					<MediaRefs>
+						<MediaRef Id="214838300"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2060091027" Name="Stop_Door_Open" MaxAttenuation="0">
+					<MediaRefs>
+						<MediaRef Id="137367078"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2996198362" Name="Stop_Flatwoods_Pinecastle_Nature_Forest_Whispering_Pines_02" MaxAttenuation="0">
+					<MediaRefs>
+						<MediaRef Id="614906492"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3274616611" Name="Stop_Gentle_rain_" MaxAttenuation="0">
+					<MediaRefs>
+						<MediaRef Id="410561726"/>
+						<MediaRef Id="483000743"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1547258259" Name="Stop_Gentle_rain__water_runs_off_a_pebble_street__recorded_through_an_air_duct__background_thunder_at_1_46__loop" MaxAttenuation="0">
+					<MediaRefs>
+						<MediaRef Id="483000743"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4066419295" Name="Stop_Soft_rain__water_flowing_down_from_the_roof_and_splashes_on_cement__city_ambience__loop" MaxAttenuation="0">
+					<MediaRefs>
+						<MediaRef Id="410561726"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<Busses>
+				<Bus Id="2955179355" Name="Reverb Bus"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="1911964571" Name="HouseReverb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2662085913"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<StateGroups>
+				<StateGroup Id="1911964571" Name="HouseReverb">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="930712164" Name="Off"/>
+						<State Id="1651971902" Name="On"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="1681012287" Name="PlayerFootsteps">
+					<Switches>
+						<Switch Id="2252631665" Name="Wood_Switch"/>
+						<Switch Id="2766765585" Name="Dirt_Switch"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E52A211A-6225-03C2-B8BE-7F6B4D47B70B}</FileHash>
+</SoundBanksInfo>

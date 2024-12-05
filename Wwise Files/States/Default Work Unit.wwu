@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4423E58E-FCB6-4D5C-9F2F-1FED6C50D386}" SchemaVersion="110">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{4423E58E-FCB6-4D5C-9F2F-1FED6C50D386}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="OnFloorboards" ID="{3D941913-AA4A-44B1-93F4-E5C041813AFD}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{9766FDC8-4005-4211-B041-BF66010085CA}"/>
+						<State Name="OnFloor" ID="{8D0CAD1E-0DAE-41EC-8021-A857CD1707EC}"/>
+						<State Name="OffFloor" ID="{1ED59F25-CF39-4A9E-BDC6-B33DD6FA10E4}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="ReverbState" ID="{0E2BBA46-8527-4C15-A9A4-4C7FA6A53D6D}">
+					<ChildrenList>
+						<State Name="None" ID="{7BEACCD2-1784-46AC-AC63-26381EAE1EC0}"/>
+						<State Name="On" ID="{8E6DC776-FDAC-46DE-A811-95A959891077}"/>
+						<State Name="Off" ID="{A9452ED5-C324-4684-9C66-EB78D969D1D9}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="HouseReverb" ID="{80234ABD-21D3-43C8-89B8-7347F7FB52B5}">
+					<ChildrenList>
+						<State Name="None" ID="{54E27830-D031-47F7-863A-FDD25D2BE1D7}"/>
+						<State Name="Off" ID="{60B76570-9A65-4993-99D0-53018BA4798A}"/>
+						<State Name="On" ID="{124E752F-34FE-4B4E-8C29-72E5669491D0}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

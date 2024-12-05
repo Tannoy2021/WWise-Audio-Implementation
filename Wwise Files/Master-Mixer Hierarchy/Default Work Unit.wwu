@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}" SchemaVersion="110">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{D7B26AE3-6380-4A06-8211-9845D351CD9F}" WorkUnitID="{5DD504AC-BCC2-418D-9A4A-4347551E69CE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Misc" ID="{456EB70C-C30B-423E-A7EE-630D1ACAB515}"/>
+						<Bus Name="Indoor" ID="{3382AE18-FBAF-4103-96F6-45339746D4BE}"/>
+						<Bus Name="PlayerFootsteps" ID="{1606FB84-34B8-425F-8964-72E489FEE5C5}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="TunnelReverb" ID="{F0264AAA-97D9-4A35-B7B3-662DC62A25D0}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+								</Reference>
+								<Reference Name="UserAuxSend1">
+									<ObjectRef Name="HouseReverb" ID="{0285CB01-2125-4FF3-84AD-8650A52DE0E3}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+								</Reference>
+							</ReferenceList>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Misc" ID="{456EB70C-C30B-423E-A7EE-630D1ACAB515}"/>
+									<DuckingParam>
+										<Volume>-10</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="Reverb Bus" ID="{635F266D-07FA-4CF4-B075-AB22CF1D871A}">
+							<ChildrenList>
+								<AuxBus Name="TunnelReverb" ID="{F0264AAA-97D9-4A35-B7B3-662DC62A25D0}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Tunnel1" ID="{CC44B890-9865-4157-965F-86FED27BC4C6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="ReverbState" ID="{0E2BBA46-8527-4C15-A9A4-4C7FA6A53D6D}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Off" ID="{A9452ED5-C324-4684-9C66-EB78D969D1D9}"/>
+												<CustomState Name="" ID="{E46BE01F-AD6C-431C-95B6-DA0AB092D3C3}" ShortID="910313637">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="On" ID="{8E6DC776-FDAC-46DE-A811-95A959891077}"/>
+												<CustomState Name="" ID="{B2F144CC-A8C6-4ED9-A372-E9EDD20A3F86}" ShortID="1047361345"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</AuxBus>
+								<AuxBus Name="HouseReverb" ID="{0285CB01-2125-4FF3-84AD-8650A52DE0E3}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="HouseReverb" ID="{80234ABD-21D3-43C8-89B8-7347F7FB52B5}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Off" ID="{60B76570-9A65-4993-99D0-53018BA4798A}"/>
+												<CustomState Name="" ID="{13FBFC44-1155-4EDE-AC83-7BFDAC6BCD1D}" ShortID="807581652">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="On" ID="{124E752F-34FE-4B4E-8C29-72E5669491D0}"/>
+												<CustomState Name="" ID="{E9228CD4-8F13-4E29-A2B0-E9AA9F57FABF}" ShortID="7608519"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

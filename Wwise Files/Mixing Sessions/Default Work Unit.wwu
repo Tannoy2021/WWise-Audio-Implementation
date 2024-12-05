@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CD1DBF5A-7656-4528-BEA1-4B60EECE27F3}" SchemaVersion="110">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{CD1DBF5A-7656-4528-BEA1-4B60EECE27F3}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="New Mixing Session" ID="{F30BFB9E-F2E8-441A-90F8-31963D1DEB38}">
+					<ObjectList>
+						<ObjectRef Name="PlayerFootsteps" ID="{1606FB84-34B8-425F-8964-72E489FEE5C5}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+						<ObjectRef Name="Misc" ID="{456EB70C-C30B-423E-A7EE-630D1ACAB515}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+						<ObjectRef Name="Indoor" ID="{3382AE18-FBAF-4103-96F6-45339746D4BE}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D6407C5-CCC8-440A-8EA9-89A201FE2986}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>

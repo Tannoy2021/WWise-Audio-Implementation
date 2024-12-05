@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{59ED04D8-1032-40F3-B18E-A3335111E0DA}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{59ED04D8-1032-40F3-B18E-A3335111E0DA}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="PlayerFootsteps" ID="{2B91386C-36F7-439B-BA27-04A7D6601060}">
+					<ChildrenList>
+						<Switch Name="Dirt_Switch" ID="{A6088BC1-A531-4818-B09F-D57482887D1D}"/>
+						<Switch Name="Wood_Switch" ID="{700EEA75-9FE3-43F8-92C3-E59A6C5E51CB}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
